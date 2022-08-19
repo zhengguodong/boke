@@ -40,22 +40,14 @@ export default {
     let part1list=ref([])
     let getPart1=()=>{
       getpart1().then((res)=>{
-        // console.log(res);
         part1list.value=res.data
-        console.log("444",part1list.value);
-
       })
     }
-    console.log("111",part1list.value);
     let tiao=(title: string,content: string)=>{
-      console.log(title,content);
       router.push({path:'/test',query:{title:title,content:content}})
     }
     onMounted(()=>{
       getPart1()
-    console.log("222");
-    console.log("333",part1list.value);
-
     })
 
     return{list,part1list,part2list,tiao}

@@ -4,7 +4,6 @@
     <div id="zj"><router-view ></router-view> </div>
     <div id="right"><PersonIntroduce/></div>
     <div id="zuo">
-      
       <div>【人生若只如初见♥何事秋风悲画扇】</div>
       <div>Live For Code</div>
     </div>

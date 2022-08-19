@@ -1,5 +1,5 @@
 // import { getAllJSDocTags } from "typescript"
-import server from "./http.js"
+import server from "./http"
 import {bk,edit} from "../types/type"
 export function getmsg(data?:any){
     return server({

@@ -36,7 +36,6 @@ export default {
         let {proxy} =useCurrentInstance();
         let id=ref()
         let  getdata= ()=>{
-            console.log("1111");
             getmsg().then(res=>{
                  res.data.map((x: { id: string; content: any; title: any; })=>{
                    if(x.id==id.value){

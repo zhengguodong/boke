@@ -10,6 +10,7 @@
   "dependencies": {
     "@element-plus/icons": "^0.0.11",
     "@kangc/v-md-editor": "^2.3.13",
+    "@tinymce/tinymce-vue": "^4.0.7",
     "axios": "^0.24.0",
     "body-parser": "^1.19.1",
     "core-js": "^3.6.5",

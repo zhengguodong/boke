@@ -36,7 +36,6 @@ export default {
         const bklist=ref([])
         let getmsg1=():void=>{
             getmsg().then((res)=>{
-            console.log(res.data);
             bklist.value=res.data
           })
         }
